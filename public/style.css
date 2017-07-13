@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(31, 38, 46);
+    font-family: Inconsolata;
+    font-size: 12px;
+}
+
+#message {
+    padding: 0;
+}
+
+.messageArea {
+    display: inline-block;
+}
+
+.function {
+    color: rgb(200, 59, 250);
+}
+
+.var {
+    color: rgb(200, 59, 250);
+    margin-left: 20px;
+}
+
+.function-name {
+    color: rgb(84, 160, 230);
+}
+
+.varDeclaration {
+    color: rgb(231, 126, 126)
+}
+
+.function-arguments {
+    color: rgb(177, 172, 170);
+}
+
+.closing-bracket {
+    color: rgb(177, 172, 170);
+    margin-left: 20px;
+}
+
+.key-declaration {
+    margin-left: 40px;
+    color: rgb(177, 172, 170);
+}
+
+.textbox {
+    background-color: #252531;
+    border-style: none;
+    width: 90%;
+    color: white;
+}
+
+.punctuation {
+    color: rgb(28, 182, 198);
+}
+
+.message {
+    color: rgb(146, 212, 135);
+}
+
+input {
+    border-style: none;
+    font-family: inherit;
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+}
